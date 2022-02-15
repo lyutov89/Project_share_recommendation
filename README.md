@@ -10,6 +10,8 @@
 был создан [датасет](https://github.com/lyutov89/project_share_recommendation/blob/master/users/Data_collection_for_pet_project.ipynb) с синтетическими данными 
 
 * `Датасет из ценных бумаг.` На этом этапе было изучено несколько скринеров. Встроенная питоновская библиотека yahoo finance ограничивает в доступе к некоторым фундаментальным показателям бумаг, поэтому выбор пал не finviz/trading view. Trading view можно спарсить исключительно через Selenium, а мне хотелось попробовать через фреймворк Scrapy. К тому же, [finviz](https://finviz.com/) парсится проще и закрытые данные из библиотеки yahoo finance тут уже доступны. [Паук](https://github.com/lyutov89/project_share_recommendation/tree/master/shares_parsing/finviz_parsing) собирает данные в базу данных Mongo DB.
+    - [X] После собранные данные в Mongo DB были [обработаны отдельно](https://github.com/lyutov89/project_share_recommendation/blob/master/items_shares/items_treatment.ipynb) 
+    - [X] Сделал [разведочный анализ данных](https://github.com/lyutov89/project_share_recommendation/blob/master/items_shares/finviz_shares_short_eda.ipynb) на обработанных данных
 
 * `Список покупок ценных бумаг пользователями.` Наши юзеры должны совершать свои сделки. Недавно СПБ биржа сформировала индекс [spb100](https://spbexchange.ru/ru/stocks/index/SPB100/) из самых популярных акций среди российских клиентов. Состав этого индекса хорошо согласуется с статьей, которую я приводил в начале, но она охватывает весь рынок брокеров, а не только Тинькофф, поэтому было решено [собрать данные индекса](https://github.com/lyutov89/project_share_recommendation/tree/master/shares_parsing/spb_shares) при помощи Selenium.
 
