@@ -17,7 +17,7 @@
 
 * `Датасет взаимодействий user-item.` Собранные популярные бумаги СПБ биржи были синтетическим образом распределены по юзерам. О том, как это было сделано, можно прочесть в самом [ноутбуке.](https://github.com/lyutov89/project_share_recommendation/blob/master/interactions/interactions.ipynb)
 
-* `Бейзлайны`. Метрика для бизнеса и ML-метрика precision_at_5. Выполнены следующие одноуровневые модели: 
+* `Бейзлайны`. Метрика для бизнеса и ML-метрика precision_at_5. Выполнены следующие [одноуровневые модели](https://github.com/lyutov89/Project_share_recommendation/blob/dev-base/baselines/baselines.ipynb): 
     - [X] ItemItem Recommender, CosineRecommender, TfidfRecommender   
     - [X] ALS with/without bm25, BPR with bm25 
     - [X]
