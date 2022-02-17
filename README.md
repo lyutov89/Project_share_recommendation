@@ -18,10 +18,13 @@
 * `Датасет взаимодействий user-item.` Собранные популярные бумаги СПБ биржи были синтетическим образом распределены по юзерам. О том, как это было сделано, можно прочесть в самом [ноутбуке.](https://github.com/lyutov89/project_share_recommendation/blob/master/interactions/interactions.ipynb)
 
 * `Бейзлайны`. Метрика для бизнеса и ML-метрика precision_at_5. Выполнены следующие одноуровневые модели: 
-    - [X]  
+    - [X] ItemItem Recommender, CosineRecommender, TfidfRecommender   
+    - [X] ALS with/without bm25, BPR with bm25 
     - [X]
     - [X]
-    - [X]
-    
+   
+   В дальнейших планах (до конца февраля 2022 г.):
+* `Гибридная модель на основе LightFm`   
 * `Двухуровневая рекомендательная модель`
+* `Настройка предфильтрации/постфильтрации`
 
