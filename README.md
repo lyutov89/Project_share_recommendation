@@ -24,7 +24,8 @@
     - [X]
    
 * `LightFM и двухуровневая рекомендательная система.`
-Файл с предложениями по фичам для [датасета акций](https://github.com/lyutov89/Project_share_recommendation/tree/two-step-system/2_step_recsys)
+
+Файл с предложениями по фичам для [датасета акций.](https://github.com/lyutov89/Project_share_recommendation/tree/two-step-system/2_step_recsys)
 
 
    В дальнейших планах (до конца февраля 2022 г.):
