@@ -18,7 +18,7 @@
 * `Датасет взаимодействий user-item.` Собранные популярные бумаги СПБ биржи были синтетическим образом распределены по юзерам. О том, как это было сделано, можно прочесть в самом [ноутбуке.](https://github.com/lyutov89/project_share_recommendation/blob/master/interactions/interactions.ipynb)
 
 В первой версии этого датасета было реализовано случайное взаимодействие из 100 000 юзеров и ~8500 бумаг. 
-Во второй версии было сокращено кол-во юзеров и был реализован биннинг бумаг из индекса s&p500 по секторам.
+Во второй версии было сокращено кол-во юзеров до 25 000 и был реализован биннинг бумаг из индекса s&p500 по секторам.
 
 * `Бейзлайны`. Метрика для бизнеса и ML-метрика precision_at_5. Выполнены следующие [одноуровневые модели](https://github.com/lyutov89/Project_share_recommendation/blob/dev-base/baselines/baselines.ipynb): 
     - [X] ItemItem Recommender, CosineRecommender, TfidfRecommender   
@@ -28,7 +28,7 @@
    
 * `LightFM и двухуровневая рекомендательная система.`
 
-Файл с предложениями по фичам для [датасета акций.](https://github.com/lyutov89/Project_share_recommendation/tree/two-step-system/2_step_recsys)
+Файл с предложениями по фичам для [датасета акций.](https://github.com/lyutov89/Project_share_recommendation/blob/two-step-system/2_step_recsys/draft_features.md)
 
 
    В дальнейших планах (до конца февраля 2022 г.):
